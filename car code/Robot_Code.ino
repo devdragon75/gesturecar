@@ -1,3 +1,4 @@
+//code for gesture control using hand gestue//
 #include <SoftwareSerial.h>
 SoftwareSerial BT_Serial(2, 3); // RX, TX
 
