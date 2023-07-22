@@ -1,4 +1,4 @@
-# gesturecar
+# bluetoothgesturecar
 The gesture control car, powered by Arduino and a gyro sensor, offers an engaging experience, allowing users to control the car's movements through hand gestures. The Arduino processes data from the gyro sensor, interpreting tilt angles to determine the desired direction. By cleverly mapping gestures to motor commands, the car moves forward, backward, turns left, or right. Your programming skills played a vital role in implementing the gesture recognition algorithm. This innovative project showcases your technical aptitude and creativity, offering exciting possibilities for human-computer interaction and inspiring others in the maker community. The gesture control car exemplifies the fusion of electronics and robotics, opening doors to future technological advancements.
 
 
