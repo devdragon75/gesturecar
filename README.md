@@ -17,6 +17,26 @@ Creating a Bluetooth gesture-controlled car using Arduino is an exciting project
 **Connection Instructions
 (GESTURE SENSOR)**
 
+Step-by-Step Connection Details:
+
+Connect L298N Motor Driver to Arduino:
+
+Connect VCC1 of the L298N to 5V on the Arduino.
+Connect GND1 of the L298N to GND on the Arduino.
+Connect IN1, IN2, IN3, and IN4 of the L298N to any digital pins on the Arduino (e.g., IN1 to pin 2, IN2 to pin 3, IN3 to pin 4, IN4 to pin 5).
+Connect ENA of the L298N to a PWM-capable digital pin on the Arduino (e.g., ENA to pin 9).
+Connect ENB of the L298N to another PWM-capable digital pin on the Arduino (e.g., ENB to pin 10).
+Connect Motors to L298N Motor Driver:
+
+Connect the two DC motors to the OUT1 and OUT2 ports of Motor A on the L298N motor driver. The polarity doesn't matter; you can switch the connections if the motors move in the opposite direction.
+Connect the other two DC motors to the OUT3 and OUT4 ports of Motor B on the L298N motor driver. Similarly, you can switch the connections if the motors move in the opposite direction.
+Connect Bluetooth Module to Arduino:
+
+Connect the VCC of the HC-05/HC-06 to 5V on the Arduino.
+Connect the GND of the HC-05/HC-06 to GND on the Arduino.
+Connect the TXD of the HC-05/HC-06 to RX (pin 10) on the Arduino.
+Connect the RXD of the HC-05/HC-06 to TX (pin 11) on the Arduino.
+
 Connect MPU6050 to Arduino:
 
 VCC to 5V on Arduino
